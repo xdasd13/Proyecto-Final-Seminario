@@ -65,3 +65,4 @@ SELECT COUNT(DISTINCT a.idEstudiante) AS alumnos_desaprobados
 FROM Desarrollo d
 JOIN Asignacion a ON d.idAsignacion = a.idAsignacion
 WHERE d.puntajeObtenido < 6;
+
