@@ -2,7 +2,7 @@
 // Configuración de la base de datos
 class DatabaseConfig {
     private $host = 'localhost';
-    private $dbName = 'my_database';
+    private $dbName = 'aprendePeru';
     private $username = 'root';
     private $password = '';
     private $conn;
@@ -27,19 +27,4 @@ class DatabaseConfig {
         return $this->conn;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
